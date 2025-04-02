@@ -556,7 +556,7 @@
                 "type": "Microsoft.Common.DropDown",
                 "label": "Type of managed disks",
                 "visible": "[greater(steps('instance').datadisk.vmDataDiskCount, 0)]",
-                "defaultValue": "Premium_LRS",
+                "defaultValue": "Premium SSD disks - LRS",
                 "toolTip": "The storage type of managed disks. The default will be Premium disks for VMs that support Premium disks and Standard disks for those that do not.",
                 "constraints": {
                   "allowedValues": [
