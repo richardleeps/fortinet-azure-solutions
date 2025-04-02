@@ -307,7 +307,7 @@
     },
     "diskType": {
       "type": "string",
-      "defaultValue": "Default",
+      "defaultValue": "Premium_LRS",
       "allowedValues": [
         "Standard_LRS",
         "Premium_LRS",
@@ -529,7 +529,7 @@
       "1"
     ],
     "zone2": [
-      "2"
+      "3"
     ],
     "zones": [
       "1",
