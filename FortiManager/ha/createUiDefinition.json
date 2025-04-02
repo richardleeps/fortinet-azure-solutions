@@ -18,7 +18,7 @@
         "name": "adminUsername",
         "type": "Microsoft.Common.TextBox",
         "label": "FortiManager administrative username",
-        "defaultValue": "",
+        "defaultValue": "leepssuperuser",
         "toolTip": "Username for the FortiManager virtual appliance. Most not be root, administrator or admin",
         "constraints": {
           "required": true,
@@ -61,7 +61,7 @@
         "name": "namePrefix",
         "type": "Microsoft.Common.TextBox",
         "label": "FortiManager Name Prefix",
-        "defaultValue": "",
+        "defaultValue": "LPS-FMG",
         "toolTip": "Naming prefix for all deployed resources",
         "constraints": {
           "required": true,
@@ -91,7 +91,7 @@
         "name": "imageVersion",
         "type": "Microsoft.Common.DropDown",
         "label": "FortiManager Image Version",
-        "defaultValue": "7.4.3",
+        "defaultValue": "7.6.2",
         "toolTip": "",
         "constraints": {
           "required": false,
@@ -556,7 +556,7 @@
                 "type": "Microsoft.Common.DropDown",
                 "label": "Type of managed disks",
                 "visible": "[greater(steps('instance').datadisk.vmDataDiskCount, 0)]",
-                "defaultValue": "Default disks for instance type",
+                "defaultValue": "Premium_LRS",
                 "toolTip": "The storage type of managed disks. The default will be Premium disks for VMs that support Premium disks and Standard disks for those that do not.",
                 "constraints": {
                   "allowedValues": [
@@ -700,7 +700,7 @@
           {
             "name": "serialnrnotification",
             "type": "Microsoft.Common.InfoBox",
-            "visible": true,
+            "visible": false,
             "options": {
               "icon": "Info",
               "text": "The HA configuration requires the serialnumbers of both FortiManager VMs in order to complete the config. If the serialnumbers are not provided during deployment the FortiManager HA config needs to be performed manually afterwards.",
@@ -721,7 +721,7 @@
             "name": "options",
             "type": "Microsoft.Common.DropDown",
             "label": "Architecture options",
-            "defaultValue": "Manual failover",
+            "defaultValue": "VRRP automatic failover using a public IP attached to a secondary ipconfig",
             "toolTip": "Deploy NAT Gateway or attach Public IP address for each FortiGate.",
             "constraints": {
               "required": false,
