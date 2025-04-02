@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "leepssuperuser" // TODO: Fill in parameter value
+            "value": "leepssuperuser"
         },
         "adminPassword": {
-            "value": "" // TODO: Fill in parameter value
+            "value": ""
         },
         "namePrefix": {
-            "value": "LPS-FMG" // TODO: Fill in parameter value
+            "value": "LPS-FMG"
         },
         "imageSku": {
             "value": "fortinet-fortimanager"
@@ -108,7 +108,7 @@
             "value": ""
         },
         "location": {
-            "value": "" // TODO: Fill in parameter value
+            "value": ""
         },
         "tagsByResource": {
             "value": {}
