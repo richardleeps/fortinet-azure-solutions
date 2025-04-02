@@ -2,7 +2,7 @@
 
 :wave: - [Introduction](#introduction) - [Design](#design) - [Deployment](#deployment) - [Requirements](#requirements-and-limitations) - [Configuration](#configuration) - [Troubleshooting](#troubleshooting) - :wave:
 
-[![Azure Portal Wizard](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frichardleeps%2Ffortinet-azure-solutions%2Fpatch-1%2FFortiManager%2Fha%2FmainTemplate.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2Frichardleeps%2Ffortinet-azure-solutions%2Fmain%2FFortiManager%2Fha%2FcreateUiDefinition.json)
+[![Azure Portal Wizard](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Frichardleeps%2Ffortinet-azure-solutions%2Fpatch-1%2FFortiManager%2Fha%2FmainTemplate.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2Frichardleeps%2Ffortinet-azure-solutions%2Fpatch-1%2FFortiManager%2Fha%2FcreateUiDefinition.json)
 
 ## Introduction
 
