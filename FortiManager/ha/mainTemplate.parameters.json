@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "" // TODO: Fill in parameter value
+            "value": "leepssuperuser" // TODO: Fill in parameter value
         },
         "adminPassword": {
             "value": "" // TODO: Fill in parameter value
         },
         "namePrefix": {
-            "value": "" // TODO: Fill in parameter value
+            "value": "LPS-FMG" // TODO: Fill in parameter value
         },
         "imageSku": {
             "value": "fortinet-fortimanager"
         },
         "imageVersion": {
-            "value": "latest"
+            "value": "7.6.4"
         },
         "additionalCustomData": {
             "value": ""
@@ -78,10 +78,10 @@
             "value": "172.16.140.4"
         },
         "serialConsole": {
-            "value": "yes"
+            "value": "no"
         },
         "diskType": {
-            "value": "Default"
+            "value": "Premium SSD disks - LRS"
         },
         "dataDiskSize": {
             "value": "1024"
