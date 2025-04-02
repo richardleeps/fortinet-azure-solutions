@@ -529,7 +529,7 @@
     "zone1": [
       "1"
     ],
-    "zone2": [
+    "zone3": [
       "3"
     ],
     "zones": [
@@ -901,7 +901,7 @@
       "identity": {
         "type": "SystemAssigned"
       },
-      "zones": "[if(variables('useAZ'), variables('zone2'), json('null'))]",
+      "zones": "[if(variables('useAZ'), variables('zone3'), json('null'))]",
       "plan": {
         "name": "[parameters('imageSku')]",
         "publisher": "[variables('imagePublisher')]",
