@@ -61,7 +61,7 @@
         "name": "namePrefix",
         "type": "Microsoft.Common.TextBox",
         "label": "FortiManager Name Prefix",
-        "defaultValue": "LPS-FMG",
+        "defaultValue": "LPS-FMG-",
         "toolTip": "Naming prefix for all deployed resources",
         "constraints": {
           "required": true,
