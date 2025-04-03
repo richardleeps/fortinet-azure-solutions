@@ -9,7 +9,7 @@
             "value": ""
         },
         "namePrefix": {
-            "value": "LPS-FMG"
+            "value": "LPS-FMG-"
         },
         "imageSku": {
             "value": "fortinet-fortimanager"
