@@ -900,7 +900,7 @@
       "identity": {
         "type": "SystemAssigned"
       },
-      "zones": ["2"],
+      "zones": ["1"],
       "plan": {
         "name": "[parameters('imageSku')]",
         "publisher": "[variables('imagePublisher')]",
