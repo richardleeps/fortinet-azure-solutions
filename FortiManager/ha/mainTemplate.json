@@ -824,7 +824,7 @@
       "identity": {
         "type": "SystemAssigned"
       },
-      "zones": "[if(variables('useAZ'), variables('zone1'), json('null'))]",
+      "zones": ["1"],
       "plan": {
         "name": "[parameters('imageSku')]",
         "publisher": "[variables('imagePublisher')]",
@@ -900,7 +900,7 @@
       "identity": {
         "type": "SystemAssigned"
       },
-      "zones": "[if(variables('useAZ'), variables('zone2'), json('null'))]",
+      "zones": ["2"],
       "plan": {
         "name": "[parameters('imageSku')]",
         "publisher": "[variables('imagePublisher')]",
