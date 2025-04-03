@@ -16,7 +16,7 @@
     },
     "namePrefix": {
       "type": "string",
-      "defaultValue": "LPS-FMG",
+      "defaultValue": "LPS-FMG-",
       "metadata": {
         "description": "Name for FortiManager virtual appliances (A & B will be appended to the end of each respectively)"
       }
